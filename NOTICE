@@ -1,0 +1,15 @@
+rsxcs
+=====
+
+This crate contains a Rust translation of portions of libxc 7.1.2
+(https://gitlab.com/libxc/libxc), Copyright (C) 2006-2025 the libxc
+authors, including M. A. L. Marques, S. Lehtola, X. Andrade and
+contributors.
+
+libxc is distributed under the Mozilla Public License 2.0; the Rust
+translation in this crate is distributed under the same license.  See
+LICENSE for the full text.
+
+The functional formulas, numerical constants and reference values were
+derived from the libxc 7.1.2 sources.  The crate is not affiliated with
+or endorsed by the libxc project.

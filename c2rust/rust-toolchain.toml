@@ -1,0 +1,5 @@
+# The c2rust-generated crate uses nightly feature gates
+# (`extern_types`, `raw_ref_op`) and was emitted by c2rust 0.22.1, which
+# targets this nightly.
+[toolchain]
+channel = "nightly-2023-04-15"

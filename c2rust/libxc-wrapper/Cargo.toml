@@ -1,0 +1,22 @@
+[package]
+name = "libxc-c2rust-wrapper"
+version = "0.1.0"
+edition = "2021"
+publish = false
+
+[lib]
+name = "libxc_full"
+path = "src/lib.rs"
+
+[dependencies]
+libxc_c2rust = { path = "../libxc" }
+
+[dev-dependencies]
+rsxcs = { path = "../.." }
+
+[[example]]
+name = "compare"
+path = "examples/compare.rs"
+
+[profile.dev]
+debug = 0

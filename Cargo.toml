@@ -1,0 +1,23 @@
+[package]
+name = "rsxcs"
+version = "0.2.0"
+edition = "2021"
+rust-version = "1.65"
+description = "Exchange-correlation functionals for density functional theory (Rust port of a subset of libxc 7.1.2)"
+license = "MPL-2.0"
+repository = "https://github.com/qmlCoder/rsxcs"
+homepage = "https://github.com/qmlCoder/rsxcs"
+documentation = "https://docs.rs/rsxcs"
+keywords = ["dft", "exchange-correlation", "libxc", "quantum-chemistry"]
+categories = ["science"]
+readme = "README.md"
+# The generated c2rust backend is ~53 MB and lives outside this package.
+exclude = ["/c2rust", "/target", "/tools"]
+
+[dependencies]
+
+[dev-dependencies]
+
+[[example]]
+name = "grid"
+path = "examples/grid.rs"
